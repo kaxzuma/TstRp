@@ -12,3 +12,6 @@
   I plan to update this Repository  about something almost every day even though it is slight.  
   
 
+## 2019/3/13 now
+  I could't continue update... this Repository from the first update day. 
+  I must be need reconsideration.
