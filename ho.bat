@@ -1,9 +1,9 @@
 @echo off
 setlocal
-rem ƒfƒtƒHƒ‹ƒg‚ÌŒ¾Œêİ’è
+rem ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã®ç¿»è¨³å¾Œè¨€èª
 set mylang=ja
 
-rem ƒfƒtƒHƒ‹ƒg‚Ì–|–ó‘OŒ¾Œê
+rem ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã®ç¿»è¨³å‰è¨€èª
 set favlang=en
 
 set tlVal=%mylang%
@@ -26,7 +26,7 @@ if "%P1NULL%" == "TRUE" (
     set slVal=%1
 )
 
-set dispmsg=%slVal%‚©‚ç%tlVal%‚ÉGoogle–|–ó‚·‚é:
+set dispmsg=%slVal%ã‹ã‚‰%tlVal%ã«Googleç¿»è¨³:
 if "a%2" == "a" set P2NULL=TRUE
 if "%P1NULL%" == "TRUE" (
     set /P words=%dispmsg%
@@ -55,11 +55,11 @@ set words=%*
 exit /b 0
 
 rem ==============================================
-rem •¶š”ƒJƒEƒ“ƒg‚Í‰º‹L‚ğƒRƒsƒy‚³‚¹‚Ä’¸‚«‚Ü‚µ‚½B
+rem ä¸‹è¨˜ã‚’ã‚³ãƒ”ãƒšã—ã¾ã—ãŸã€‚
 rem https://qiita.com/yz2cm/items/e2914df6d684b93e490f
 rem ==============================================
 rem ==============================================
-rem StrLen - •¶š”‚ÌƒJƒEƒ“ƒg
+rem StrLen - æ–‡å­—æ•°ã®ã‚«ã‚¦ãƒ³ãƒˆ
 rem ==============================================
 :StrLen
     set _target=%1
