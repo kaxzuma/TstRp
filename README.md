@@ -21,4 +21,3 @@
   
 ## 2019/10/30
   Retry webhook to Discord!!
-  
